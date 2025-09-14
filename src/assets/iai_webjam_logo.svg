@@ -1,0 +1,76 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="200" cy="100" r="95" fill="url(#mainGradient)" opacity="0.1"/>
+  
+  <!-- Code brackets stylisés -->
+  <g transform="translate(60, 100)" fill="url(#mainGradient)" filter="url(#glow)">
+    <path d="M 0 -30 L -20 -15 L -20 15 L 0 30" stroke="url(#mainGradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(340, 100)" fill="url(#mainGradient)" filter="url(#glow)">
+    <path d="M 0 -30 L 20 -15 L 20 15 L 0 30" stroke="url(#mainGradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Elements de code décoratifs -->
+  <g transform="translate(90, 70)" fill="url(#accentGradient)" opacity="0.6">
+    <rect x="0" y="0" width="20" height="3" rx="1.5"/>
+    <rect x="25" y="0" width="35" height="3" rx="1.5"/>
+    <rect x="0" y="8" width="28" height="3" rx="1.5"/>
+  </g>
+  
+  <g transform="translate(290, 130)" fill="url(#accentGradient)" opacity="0.6">
+    <rect x="0" y="0" width="18" height="3" rx="1.5"/>
+    <rect x="23" y="0" width="25" height="3" rx="1.5"/>
+    <rect x="0" y="8" width="32" height="3" rx="1.5"/>
+  </g>
+  
+  <!-- Texte principal -->
+  <g transform="translate(200, 85)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="28" font-weight="700" fill="url(#mainGradient)">
+      IAI WebJam
+    </text>
+  </g>
+  
+  <!-- Slogan -->
+  <g transform="translate(200, 110)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="400" fill="#374151" letter-spacing="2px">
+      CODE TA CRÉATIVITÉ
+    </text>
+  </g>
+  
+  <!-- Année -->
+  <g transform="translate(200, 130)">
+    <rect x="-15" y="-8" width="30" height="16" fill="url(#accentGradient)" rx="8" opacity="0.9"/>
+    <text x="0" y="4" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="600" fill="white">
+      2025
+    </text>
+  </g>
+  
+  <!-- Points décoratifs -->
+  <circle cx="130" cy="50" r="2" fill="url(#accentGradient)" opacity="0.5"/>
+  <circle cx="270" cy="60" r="1.5" fill="url(#mainGradient)" opacity="0.7"/>
+  <circle cx="150" cy="150" r="1" fill="url(#accentGradient)" opacity="0.6"/>
+  <circle cx="250" cy="140" r="2.5" fill="url(#mainGradient)" opacity="0.4"/>
+  
+  <!-- Éléments géométriques subtils -->
+  <polygon points="110,45 115,40 120,45 115,50" fill="url(#accentGradient)" opacity="0.3"/>
+  <polygon points="285,155 290,150 295,155 290,160" fill="url(#mainGradient)" opacity="0.3"/>
+</svg>
