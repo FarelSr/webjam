@@ -45,7 +45,7 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-white/60" />
                 <div>
                   <p className="font-medium">Contact</p>
-                  <p className="text-white/80 text-sm">mail</p>
+                  <p className="text-white/80 text-sm">yvt.hngs@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Footer = () => {
               © 2025 IAI WebJam. Tous droits réservés.
             </div>
             <div className="text-white/60 text-sm">
-              Organisé par ...
+              Organisé par IAI WebJam Team
             </div>
           </div>
         </div>

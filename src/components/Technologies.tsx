@@ -5,12 +5,12 @@ const Technologies = () => {
   const allowedTechs = [
     {
       name: "GitHub Pages",
-      logo: "/src/assets/Github_logo.png",
+      logo: "/Github_logo.png",
       description: "Hébergement gratuit pour sites statiques"
     },
     {
       name: "Netlify",
-      logo: "/src/assets/netlify_logo.png",
+      logo: "/netlify_logo.png",
       description: "Déploiement continu et CDN"
     }
   ];
@@ -18,12 +18,12 @@ const Technologies = () => {
   const restrictedTechs = [
     {
       name: "Node.js",
-      logo: "/src/assets/node_logo.png",
+      logo: "/node_logo.png",
       description: "Runtime JavaScript côté serveur"
     },
     {
       name: "PHP",
-      logo: "/src/assets/php_logo.png",
+      logo: "/php_logo.png",
       description: "Langage de programmation côté serveur"
     }
   ];

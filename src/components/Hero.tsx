@@ -16,7 +16,7 @@ const Hero = () => {
         {/* Logo */}
         <div className="mb-8 mt-12 flex justify-center">
           <img 
-            src="/src/assets/iai_webjam_logo.svg" 
+            src="/iai_webjam_logo.svg" 
             alt="IAI WebJam Logo" 
             className="h-32 w-auto filter drop-shadow-2xl"
           />
