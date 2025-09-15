@@ -94,10 +94,6 @@ const Evaluation = () => {
               <span>Enseignants</span>
             </div>
             <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-[#4A1E3A] rounded-full"></div>
-              <span>Alumni</span>
-            </div>
-            <div className="flex items-center space-x-2">
               <div className="w-3 h-3 bg-[#0F4C75] rounded-full"></div>
               <span>Professionnels</span>
             </div>
